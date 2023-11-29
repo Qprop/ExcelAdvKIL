@@ -149,6 +149,29 @@ Lets look at example:
 
 ## Day 4 {.tabset .tabset-pills}
 
+
+### Formula Auditing
+
+Having formulas is great, knowing where they are and how they interact with each other.
+
+To help us with this is where auditing tools come in.
+
+From `Formula >  (FOrmula Auditing)`, you can see the different auditing functions.
+
+  - Show Formulas
+  - Using shortcuts
+  - Trace Precedents
+  - Trace Dependents
+  - Evaluate Formula
+  
+### Get our hands dirty
+
+  Using the `_02_PlayData.xlsx` attempt the below practices
+    
+  -   `LocateFormulas` sheet locate the formulas and highlight them
+  -   `AuditingTools` sheet Trace the formula with arrows where they are coming from and heading on cell `D13`, `B3`
+    
+
 ### Date Functions
 
 #### Introduction
@@ -188,13 +211,13 @@ Under the `Formulas >  DATE`:
 We will use the `_01_Sample_data.xlsx` data which can be gotten in the `Data\_01_Sample_data.xlsx` folder.
 
 
-    Using the data sample attempt the below practices
+Using the data sample attempt the below practices
     
-    -  From 'Order Date' pick the Year of Order
-    -  From 'Order Date' pick the Month of Order
-    -  From 'Order Date' pick the Day of Order
-    -  From 'Order Date' pick the Weekday of Order .i.e "Monday, Tuesday, Wednesday e.t.c"
-    - Determine the difference in days between `Order Date` and `Ship Date`
+  -  From 'Order Date' pick the Year of Order
+  -  From 'Order Date' pick the Month of Order
+  -  From 'Order Date' pick the Day of Order
+  -  From 'Order Date' pick the Weekday of Order .i.e "Monday, Tuesday, Wednesday e.t.c"
+  - Determine the difference in days between `Order Date` and `Ship Date`
 
 
 
@@ -217,18 +240,18 @@ From `Data >  (Data Tools)`, you can seee the different data tools.
   
 ### Get our hands dirty
 
-    Using the sample attempt the below practices
+  Using the sample attempt the below practices
     
-    -   Under the "Orders" sheet using "Order ID" create a new sheet with unique Order ID
-    -   Seperate\Split the 'Order ID' column to three parts 'State Code', 'Year Order', 'Serial Order Number' 
-    -   Unite back into one cell using a ':' as the separate of the three new columns created above using a formula the new column name 'New Order ID'
+  -   Under the "Orders" sheet using "Order ID" create a new sheet with unique Order ID
+  -   Seperate\Split the 'Order ID' column to three parts 'State Code', 'Year Order', 'Serial Order Number' 
+  -   Unite back into one cell using a ':' as the separate of the three new columns created above using a formula the new column name 'New Order ID'
     
-    -   Create a data entry sheet called 'Data Entry' with data validation that accepts the below values
-      - Name (Any Type of value)
-      - Age (Whole Number)
-      - Weight (Decimal)
-      - Date of Signing in (Date)
-      - Mobile Number (Limiting the text length to 12 number digits)
+  -   Create a data entry sheet called 'Data Entry' with data validation that accepts the below values
+    - Name (Any Type of value)
+    - Age (Whole Number)
+    - Weight (Decimal)
+    - Date of Signing in (Date)
+    - Mobile Number (Limiting the text length to 12 number digits)
 
 ## Day 5 {.tabset .tabset-pills}    
 
@@ -274,7 +297,7 @@ Exercise:
 - Locating formulas
 - Auditing Tools ![](Images/ex_auditingtools.jpg){width=150px}
 - Column/Row References `A:A` / `1:1`
-- 
+
 
 ### **Shortcut CheatSheet**
 
