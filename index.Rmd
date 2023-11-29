@@ -1,0 +1,320 @@
+---
+title: ""
+author: ""
+date: ""
+output:
+  rmarkdown::html_document:
+  theme: readable
+toc: no
+toc_float: no
+code_folding: hide
+code_downlod: yes
+highlight: textmate
+---
+
+<style type="text/css">
+  body{
+  font-size: 18pt;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size: 24pt;
+}
+caption {
+  color: red;
+  font-weight: bold;
+  font-size: 2.0em;
+} 
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 22px;
+    border-left: 5px solid #eee;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(238, 238, 238);
+}
+</style>
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# EXCEL ADVANCE TRAINING {.tabset}
+
+## Welcome 
+
+![](Images/ms_excel_firstpage.jpg)
+
+
+## Introduction 
+
+For this training will be looking at <mark>spreadsheets</mark> using the Microsoft Excel.
+
+Numerous spread sheet application/software are available just to name a few:
+
+  - Microsoft Excel ![](https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg){width=10px}
+  - LibreOffice ![](https://upload.wikimedia.org/wikipedia/commons/0/02/LibreOffice_Logo_Flat.svg){width=100px}
+  - Google sheets ![](https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg){width=10px}
+
+
+Some of the spreadsheets are paid for others a free and open source.
+Access can be both online (using your browers i.e. Internet Explorer/Google Chrome/Mozilla) and offline (As a stand alone software installed on your computer/mobile phone)
+
+
+---------------------
+
+### Assumptions
+
+Have some limited or little knowledge of Microsoft excel functions e.g `=sum(C1,C2)`, though not mandatory it makes it easier to grasp concepts slightly faster.
+
+Though if you remember the simple mathematics which we do everyday of summing and adding up *money* then you are good :).
+
+---------------------
+
+
+### Requirements
+
+* Working computer (Laptop/Desktop)
+* Access to internet once in a while to download a few resource materials
+* **Interest and desire** to learn new concepts
+
+
+### Overview of our knowledge
+
+* Operating and maneuvering on a PC/Laptop
+* Basic knowledge of Ms Excel Interface
+
+
+### Teaching guide
+
+* Mixed instructional guide, with the presentation but focused on getting more hard skills
+* Prepare to write Excel formulas
+* Engagements and practice on the fly
+
+
+### About the trainer
+
+Just me but you can see you can get the details from [qprop](https://qprop.me/about)
+
+
+## Recap {.tabset .tabset-pills}
+
+
+
+### Navigating Ms Excel
+
+
+**Key Guiding Concepts**
+
+
+Vocabulary to be used.
+
+- **Menu Bar**
+  ![](Images/excel_menu.jpg)
+- **Menu Ribbon**
+  ![](Images/ex_ribbon.jpg)
+- **Sheet**
+
+  ![](Images/ex_sheet.jpg){width=150px}
+- **Formula**
+  Inputs placed inside cells to do various calculations
+  
+- **Rows**
+  Horizontal cells from `1` to Maximum of `1048576`
+
+- **Columns**
+  Vertical cells from `A` to Maximum of `XFD`
+  
+### Menu's Video
+  
+<video src="Images/ex_menu_ribon.mp4" width="320" height="240" controls></video>
+
+### Formula
+
+Different option to input formula:
+
+> **Using the menu** : Menu <mark>Formulas</mark> then pick the options menus available
+
+> **Direct formula in cell** : With the cell start with <mark>=</mark> followed with the formula. You have to have an understanding of the formula
+
+**My cardinal rule in excel there is always more than one way to achieve the same result.**
+
+Lets look at example:
+
+
+      How can we sum up different numbers in different cells to get the total
+
+
+
+## Day 4 {.tabset .tabset-pills}
+
+### Date Functions
+
+#### Introduction
+
+Date is one of teh most complicated types of data to deal with, there are different ways of presenting date data types.
+
+  `Day-Month-Year` - `17-09-2023`
+  
+  `Month-Day-Year` - `09-17-2023`
+  
+  `Month-Day-Year` - `Sep-17-2023`
+  
+  `Month-Day-Year` - `Sep-17-23`
+  
+  `Year-Month-Day` - `2023-09-17`
+  
+  `Year-Day-Month` - `2023-17-09`
+
+
+
+
+#### Date Formulas 
+
+Under the `Formulas >  DATE`:
+
+  - TODAY
+  - MONTH
+  - DAY
+  - YEAR
+  - NOW
+  - DATEVALUE
+  - TIMEVALUE
+  
+  
+### Get our hands dirty
+
+We will use the `_01_Sample_data.xlsx` data which can be gotten in the `Data\_01_Sample_data.xlsx` folder.
+
+
+    Using the data sample attempt the below practices
+    
+    -  From 'Order Date' pick the Year of Order
+    -  From 'Order Date' pick the Month of Order
+    -  From 'Order Date' pick the Day of Order
+    -  From 'Order Date' pick the Weekday of Order .i.e "Monday, Tuesday, Wednesday e.t.c"
+    - Determine the difference in days between `Order Date` and `Ship Date`
+
+
+
+### Data Tools (Data Validation)
+
+Data validations are steps that are used to manage, process and clean your data. 
+
+They help manage the data and align your data to special limits that you would want
+
+From `Data >  (Data Tools)`, you can seee the different data tools.
+
+  - Data Validation
+    - Any Value
+    - Whole Number
+    - Decimal
+    - List
+    - Text length
+  - Text to Columns
+  - Remove Duplicates
+  
+### Get our hands dirty
+
+    Using the sample attempt the below practices
+    
+    -   Under the "Orders" sheet using "Order ID" create a new sheet with unique Order ID
+    -   Seperate\Split the 'Order ID' column to three parts 'State Code', 'Year Order', 'Serial Order Number' 
+    -   Unite back into one cell using a ':' as the separate of the three new columns created above using a formula the new column name 'New Order ID'
+    
+    -   Create a data entry sheet called 'Data Entry' with data validation that accepts the below values
+      - Name (Any Type of value)
+      - Age (Whole Number)
+      - Weight (Decimal)
+      - Date of Signing in (Date)
+      - Mobile Number (Limiting the text length to 12 number digits)
+
+## Day 5 {.tabset .tabset-pills}    
+
+### Visualization
+
+<br><br><br>
+
+
+#### Data can be fun | Visualization and story telling
+
+<br><br><br>
+
+```{r echo=FALSE, warning=TRUE}
+knitr::include_url("https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1")
+
+```
+
+<br><br><br>
+
+
+Beauty lies in the eyes of the beholder, data has to be simplified further to make sense to be able to achieve this we need to have visuals e.g graphs or charts.
+
+
+### Get our hands dirty
+
+Download EPL (English Premier League data) downloand click on google drive link [here](https://drive.google.com/drive/folders/1Qt6qkn4scIDrWwsVuO6zKWWeI7AGhsHT?usp=sharing) this will send a request to access and once accepted you can access the data files here. 
+
+Second option [here](https://github.com/Qprop/ExcelAdvKIL/tree/master/Exercise/Data/English Premier League_09_19) and [original sources](https://datahub.io/sports-data/english-premier-league#resource-english-premier-league_zip) **Requires Internet**
+
+Data content:
+  - 10 separate csv files
+  - Each csv is all the games play from 2009 to 2019
+  - All the columns are exactly the same
+  
+Exercise:
+  - Import all the files into 1 excel work book (Use any method you deem fit)
+
+  
+## Bonus Materials {.tabset .tabset-pills}
+
+### **Other Concepts**
+
+- Locating formulas
+- Auditing Tools ![](Images/ex_auditingtools.jpg){width=150px}
+- Column/Row References `A:A` / `1:1`
+- 
+
+### **Shortcut CheatSheet**
+
+
+|ITEM| Short Cut | Description | | 
+|:---:|:---:|:---|---|
+|<mark>BASIC</mark>|**CTRL+C**     | Copy          ||  
+||**CTRL+V**     | Paste         ||
+||**CTRL+F**     | Find/Search         ||
+||**CTRL+H**     | Find & Replace         ||
+||**CTRL+G**     | Go To Special Dialogue         ||
+||**CTRL+ALT+V** | Paste Special ||
+||**CTRL+;** | Current Date ||
+||**CTRL+SHIFT+;** | Current Time ||
+||**CTRL+SPACE** | Select Column ||
+||**SHIFT+SPACE** | Select Row ||
+|<mark>WORKBOOK</mark>||||
+||**CTRL+N** | Open New Workbook ||
+||**F12** | Save as Dialoge box ||
+||**F2** | Enter cell to edit ||
+||**F4** | Repeat previous keyboard action ||
+|<mark>FORMATTNG</mark>||||
+||**CTRL+1** | Formating cell dialogue ||
+||**CTRL+2** | Cell Bold ||
+||**CTRL+3** | Cell Italics ||
+||**CTRL+SHIFT+1** | Formating cell to Number ||
+||**CTRL+SHIFT+2** | Formating cell to Custom ||
+||**CTRL+SHIFT+5** | Formating cell to % ||
+||**CTRL+SHIFT+1** | Formating cell to Number ||
+|<mark>INSERTION/DELETION</mark>||||
+||**CTRL+SHIFT++** | Insert Dialoge box ||
+||**CTRL+-** | Delete Dialoge box ||
+||**CTRL+(** | Hide row ||
+||**CTRL+SHIFT+(** | Unhide row ||
+||**CTRL+)** | Hide column ||
+|<mark>SHEET MANIPULATION</mark>||||
+||**CTRL+A** | Select all data ||
+||**CTRL+.** | Move to the corners of each selected array ||
+
+
+
+
+
