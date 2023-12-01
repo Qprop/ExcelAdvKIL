@@ -166,6 +166,8 @@ From `Formula >  (FOrmula Auditing)`, you can see the different auditing functio
   
 ### Get our hands dirty
 
+Download data downloand click on google drive link [here](https://drive.google.com/drive/folders/1Qt6qkn4scIDrWwsVuO6zKWWeI7AGhsHT?usp=sharing) this will send a request to access and once accepted you can access the data files here. 
+
   Using the `_02_PlayData.xlsx` attempt the below practices
     
   -   `LocateFormulas` sheet locate the formulas and highlight them
@@ -176,7 +178,7 @@ From `Formula >  (FOrmula Auditing)`, you can see the different auditing functio
 
 #### Introduction
 
-Date is one of teh most complicated types of data to deal with, there are different ways of presenting date data types.
+Date is one of the most complicated types of data to deal with, there are different ways of presenting date data types.
 
   `Day-Month-Year` - `17-09-2023`
   
