@@ -221,6 +221,10 @@ Using the data sample attempt the below practices
 
 
 
+
+## Day 5 {.tabset .tabset-pills}    
+
+
 ### Data Tools (Data Validation)
 
 Data validations are steps that are used to manage, process and clean your data. 
@@ -253,7 +257,31 @@ From `Data >  (Data Tools)`, you can seee the different data tools.
     - Date of Signing in (Date)
     - Mobile Number (Limiting the text length to 12 number digits)
 
-## Day 5 {.tabset .tabset-pills}    
+### Macros | Recording Steps
+
+At times we need to be able to automate some repetitive tasks, if you do it on a daily or repeat exact same steps severally you can record macros which enable you to re-use them. 
+
+Easiest way is by using macros.
+
+To do that you need to enable the `Developer` menu bar. Go to `Options > Customize Ribbon > Developer (Tick)` then click ok.
+This adds the developer tab on your menu.
+
+
+From `Developer`, you can see the different developer tools.
+
+  - Use Relative Reference
+  - Record Macro
+  - Stop Macro
+  
+### Get our hands dirty
+
+  Using the sample attempt the below practices `_01_Sample_data.xlsx`
+    
+  -   Record a basic macro that deletes a column, using a new shortcut key you have developed `Ctrl+Shift+w`
+  -   Record a basic macro that deletes a row, using a new shortcut key you have developed `Ctrl+Shift+T`
+  -   Record a basic macro that shades a whole column 'orange`
+  -   Record a basic macro that adds a new sheet 
+
 
 ### Visualization
 
